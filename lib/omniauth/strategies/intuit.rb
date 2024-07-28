@@ -37,7 +37,7 @@ module OmniAuth
       end
 
       def api_response
-        @_api_response ||= access_token.get("https://#{ Defaults::ACCOUNTS_DOMAIN }"
+        @_api_response ||= access_token.get "https://#{ Defaults::ACCOUNTS_DOMAIN }"
       end
     end
   end
