@@ -1,2 +1,2 @@
 require 'rspec'
-require 'omniauth-quickbooks-online'
+require 'omniauth-intuit'
